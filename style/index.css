@@ -1,0 +1,260 @@
+body {
+	background: linear-gradient(to top,#009AFFFF, #00FFBCFF);
+	text-decoration: none;
+	margin: 0px;
+}
+p::selection {
+	color: black;
+	background-color: white;
+}
+p::-moz-selection { /* for firefox */
+	color: black;
+	background-color: white;
+}
+article {
+	text-align: center;
+	width: 960px;
+	position: relative;
+	left: 16%;
+}
+h1 {
+	text-align: center;
+	padding-top: 30px;
+	font-family: all;
+}
+main {
+	margin: 0 auto 0 auto ;
+	width : 1000px;
+}
+header {
+	height: 125px;
+	width: 100%;
+	background: linear-gradient(-30deg,#005178FF,  #268996FF);
+	margin-bottom: 50px ;
+	position: relative;
+	bottom: 25px;
+}
+.news {
+	width: 100% ;
+	padding: 0 0 0 10px ;
+	margin-bottom: 50px ;
+	overflow: hidden;
+}
+.post {
+	width: calc(33% - 40px);
+	height: 400px ;
+	margin:19px;
+	float: left;
+	background-color: #FCB94A ;
+	border: 2px solid black;
+	border-radius: 20px ;
+	position: relative;
+}
+.img {
+	height: 150px ;
+	background-size: 100% 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.post a {
+	padding: 10px 15px ;
+	background-color: #9B9BFF ;
+	color: black ;
+	position: absolute;
+	right: 10px;
+	bottom: 10px ;
+	border:1px solid #424242;
+	border-radius: 10px;
+	text-decoration: none;
+}
+h3 {
+	margin: 0;
+	padding-top: 20px;
+	color: black ;
+	text-align: center;
+}
+p {
+	text-align: center;
+	color: #000000;
+	padding: 0 10px ;
+}
+
+
+
+
+
+					/* Drop down menu*/
+.menu {
+	display: inline-table;
+	color: white;
+	background-color: inherit;
+	position: relative;
+	z-index: 1;
+	padding-top: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+.menu p {
+	color: white;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-family: Averta-regular;
+}
+.menu ul {
+	opacity: 0;
+	display: block;
+	color: white;
+	text-decoration: none;
+	transition-property: opacity;
+	transition-duration: 1s;
+	animation-fill-mode: forwards;
+	list-style-type: none;
+	position: relative;
+	bottom: 50px;
+	text-align: left;
+	font-family: Averta-regular;
+}
+ul:hover {
+	opacity: 1;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+.crutch {
+	height: 30px;
+}
+#logo {
+	height: 100px;
+	padding-top: 20px;
+	position: absolute;
+}
+a:hover {
+	color: #FFBE00FF;
+}
+.reg {
+	color: greenyellow;
+	position: absolute;
+	height: auto;
+	width: auto;
+	font-size: 20px;
+	top: 30px;
+	right: 1%;
+}
+#register:hover {
+	color: black;
+}
+/*     Fonts downloading     */
+@font-face {
+	font-family: "Roboto Light";
+	src: url(../fonts/Roboto_Light.ttf);
+}
+@font-face {
+	font-family: "Averta-regular";
+	src: url(../fonts/Averta-regular.ttf);
+}
+@font-face {
+	font-family: "Glitters_regular";
+	src: url("../fonts/Glitters_regular.ttf");
+}
+/* ///////////////////////////////////////////// */
+
+.post p {
+	font-family: "Roboto Light";
+	font-size: 17px;
+}
+.post h3 {
+	font-family: "Glitters_regular";
+}
+/* ///////////Footer/////////// */
+footer {
+	width: 100%;
+}
+.head_footer {
+	width:100%;
+	height: 50px;
+	background-color: #303030;
+	color: gainsboro;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom_footer {
+	background-color: #3e3e3e;
+	width: 100%;
+	height: 150px;
+	color: white;
+}
+.bottom_footer span {
+	color: #b5b7bc;
+	font-size: 14px;
+}
+.bottom_footer_list {
+	list-style-type: none;
+	padding-left: 345px;
+	width: 160px;
+	margin-bottom: 60px;
+	font-size: 12px;
+}
+.bottom_footer_list li {
+	margin-bottom: 8px;
+}
+.footer_bottom_list_news {
+	list-style-image: url(../images/11.png);
+	padding-bottom: 30px;
+	font-size: 14px;
+	padding-left: 20px;
+	width: 150px;
+}
+.footer_bottom_list_news li {
+	margin-bottom: 8px;
+}
+.head_footer a {
+	cursor: pointer;
+}
+.footer_bottom_list_news a {
+	cursor: pointer;
+}
+.footer_bottom_list_goods {
+	list-style-image: url(../images/11.png);
+	padding-bottom: 40px;
+	font-size: 14px;
+	width: 100px
+}
+.footer_bottom_list_goods li {
+	margin-bottom: 8px;
+}
+.footer_testimonials p {
+	color: #b5b7bc;
+	font-size: 14px;
+	width: 170px;
+	text-align: left;
+	position: relative;
+	right: 215px;
+	padding-bottom: 30px;
+	font-family: "Roboto Light";
+}
